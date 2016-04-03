@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.android.food.retaouille"
+    android:background="#b6b9fc"
+    >
+
+    <ImageView
+        android:layout_width="387dp"
+        android:layout_height="179dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/ratatouille"
+        android:layout_gravity="center_horizontal|top" />
+
+
+    <TextView
+        android:id="@+id/myAwesomeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+android:text="Ratatouille can be served as a side dish, as a meal or as a stuffing for other dishes, such as crepes and omelettes. It is generally made in a shallow pan, on high heat, with a relatively small amount of fat. The ingredients consist of tomatoes, garlic, onions, zucchini, eggplant, carrots, bell peppers, basil, marjoram, thyme and other green herbs."
+        android:textSize="20sp"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />"
+
+</RelativeLayout>

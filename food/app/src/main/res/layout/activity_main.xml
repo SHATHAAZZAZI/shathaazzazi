@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/okk"
+    tools:context="com.example.android.food.MainActivity">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/frameLayout">
+
+        <Button
+            android:layout_width="156dp"
+            android:layout_height="66dp"
+            android:text="italy"
+            android:id="@+id/italy"
+            android:layout_gravity="right|center_vertical"
+
+            android:textSize="40dp"
+            android:textAlignment="center"
+            android:background="#f8bbd0" />
+
+        <Button
+            android:layout_width="156dp"
+            android:layout_height="66dp"
+            android:text="france"
+            android:id="@+id/france"
+            android:layout_gravity="left|center_vertical"
+            android:textSize="40dp"
+            android:textAlignment="center"
+            android:background="#f8bbd0" />
+
+        <Button
+            android:layout_width="156dp"
+            android:layout_height="66dp"
+            android:text="jordan"
+            android:id="@+id/jordan"
+            android:layout_gravity="right|bottom"
+            android:textSize="40dp"
+            android:textAlignment="center"
+            android:background="#f8bbd0" />
+
+        <Button
+            android:layout_width="156dp"
+            android:layout_height="66dp"
+            android:text="turkey"
+            android:id="@+id/turkey"
+            android:layout_gravity="left|bottom"
+            android:textSize="40dp"
+            android:textAlignment="center"
+            android:background="#f8bbd0" />
+
+        <ImageView
+            android:layout_width="370dp"
+            android:layout_height="177dp"
+            android:id="@+id/imageView"
+            android:src="@drawable/pic"
+            android:layout_gravity="center_horizontal|top" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="music"
+            android:onClick="play"
+            android:id="@+id/sound"
+            android:layout_gravity="left|top"
+            android:background="#fbd1df" />
+
+    </FrameLayout>
+
+</RelativeLayout>

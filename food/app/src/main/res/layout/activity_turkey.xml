@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.android.food.turkey"
+    android:background="@drawable/okk">
+
+    <ImageView
+        android:layout_width="387dp"
+        android:layout_height="179dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/turkey"
+        android:layout_gravity="center_horizontal|top" />
+
+    <Button
+        android:layout_width="156dp"
+        android:layout_height="66dp"
+        android:text="corba"
+        android:layout_gravity="left|bottom"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:background="#e30c19"
+        android:id="@+id/corba"
+        android:layout_below="@+id/kumpir"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp"
+        android:textColor="#ffffff"/>
+
+    <Button
+        android:layout_width="156dp"
+        android:layout_height="66dp"
+        android:text="kumpir"
+        android:layout_gravity="left|bottom"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:background="#e30c19"
+        android:id="@+id/kumpir"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff"/>
+
+    <Button
+        android:layout_width="156dp"
+        android:layout_height="66dp"
+        android:text="kofte"
+        android:layout_gravity="left|bottom"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:background="#e30e1b"
+        android:id="@+id/kofte"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff"/>
+
+
+</RelativeLayout>

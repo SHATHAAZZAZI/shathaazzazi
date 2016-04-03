@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.android.food.corba"
+    android:background="#FFDF9297">
+
+
+
+    <ImageView
+        android:layout_width="387dp"
+        android:layout_height="179dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/corba"
+        android:layout_gravity="center_horizontal|top" />
+
+    <TextView
+        android:id="@+id/myAwesomeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="It may be hard to believe, but the simple soup dish is very popular in Turkey so do not be surprised to find some Turks eating it for breakfast. Popular choices are lentil or tomato soup but if you are adventurous with your culinary preferences try tripe, sheep brain or tongue soup. Black cabbage soup is traditional to the north east of Turkey, in the black sea region. "
+        android:textSize="20sp"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>
